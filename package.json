@@ -1,0 +1,25 @@
+{
+  "name": "insta-app",
+  "version": "1.0.0",
+  "description": "insta-node-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perolajanice/insta-feed-app.git"
+  },
+  "author": "perola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perolajanice/insta-feed-app/issues"
+  },
+  "homepage": "https://github.com/perolajanice/insta-feed-app#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "instagram-node": "^0.5.8"
+  }
+}
